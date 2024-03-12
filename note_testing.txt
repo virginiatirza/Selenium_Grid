@@ -24,3 +24,5 @@ java -jar D:\SeleniumGrid\Selenium_Standalone\selenium-server-4.18.1.jar node --
 
 netstat -ano | findstr :4444
 taskkill /PID 11532 /F
+
+tes update
