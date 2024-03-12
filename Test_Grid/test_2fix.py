@@ -176,6 +176,8 @@ def test_cross_browser(browser, version, platform):
 
         time.sleep(3)
 
+        print(driver.title)
+
         print("LOG OUT")
 
         driver.quit()
