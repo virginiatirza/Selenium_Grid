@@ -1,0 +1,14 @@
+{
+    "python.testing.pytestArgs": [
+        "Test_Grid"
+    ],
+    "python.testing.unittestEnabled": true,
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./Test_Grid",
+        "-p",
+        "test_*.py"
+    ]
+}
