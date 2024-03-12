@@ -1,0 +1,26 @@
+https://data.idx.co.id/
+autoreport_adm@sat.co.id
+Autoadm234ho#
+
+start hub
+start node (different device)
+
+check url hub --> :4444
+
+run code (downloand page terakhir - file terakhir)
+antar download file 3menit (pakai time.sleep setiap test cross browser)
+
+- contoh pakai browser chrome, firefox, msedge
+
+pytest.main(["-v","-n"," 3", "test_3.py"])
+-n untuk membuka bersamaan browser misalnya melalui firefox, chrome (mac), chrome (window) butuh n- 3 agar bisa berjalan bersamaan
+
+D:\SeleniumGrid\Scripts
+D:\SeleniumGrid\Selenium_Standalone
+
+java -jar D:\SeleniumGrid\Selenium_Standalone\selenium-server-4.18.1.jar hub --port 4444
+
+java -jar D:\SeleniumGrid\Selenium_Standalone\selenium-server-4.18.1.jar node --port 5555 --hub http://10.4.75.110:4444/grid/register
+
+netstat -ano | findstr :4444
+taskkill /PID 11532 /F
